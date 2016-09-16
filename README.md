@@ -23,7 +23,7 @@ class AppKernel extends Kernel
     {
         $bundles = array(
             // ...
-
+            new \Happyr\LinkedInBundle\HappyrLinkedInBundle(),
             new Http\HttplugBundle\HttplugBundle(),
         );
 
